@@ -1,4 +1,4 @@
-# Project Title
+# PDF2TIFF
 
 A bash shell script to convert PDFs in a folder to bitonal multi-page tiff files
 
