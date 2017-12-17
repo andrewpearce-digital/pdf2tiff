@@ -8,7 +8,7 @@ do
 	echo "Converting PDF to TIFF - $f..."
 	name=$(echo $f | cut -f 1 -d '.')
 	#Use GhostScript to convert pdf to tiff, resolution is 300dpi, file format is TIFFlzw
-	gs -dBATCH -dNOPAUSE -sDEVICE=tifflzw -r300 -dCOLORSCREEN=false -dNOINTERPOLATE -sOutputFile=$name.tiff $f
+	gs -dBATCH -dNOPAUSE -sDEVICE=tifflzw -r300 -dCOLORSCREEN=false -dNOINTERPOLATE -dNOTRANSPARENCY -dUseFastColor=true -sOutputFile=$name.tiff $f
 	#Catch process end time
 	ENDTIME=$(date +"%s")
 	#Calculate time difference and print result
