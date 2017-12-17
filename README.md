@@ -37,7 +37,7 @@ bash pdf2tiff.sh
 You can refer back to the location of the script when you need to use pdf2tiff in another folder.
 
 ```
-bash ~/somefolder/pdf2tiff-script/pdf2tiff.sh
+bash ~/somefolder/pdf2tiff.sh
 ```
 
 
