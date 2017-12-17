@@ -20,20 +20,26 @@ Copy or pull pdf2tiff to your machine
 
 make the script executable
 ```
-chmod u+x pdf2tiff
+chmod u+x pdf2tiff.sh
 ```
 
 Execute pdf2tiff
 
 ```
-pdf2tiff
+pdf2tiff.sh
 ```
 
 Or run with bash if you don't want to make it executable
 
 ```
-bash pdf2tiff
+bash pdf2tiff.sh
 ```
+You can refer back to the location of the script when you need to use pdf2tiff in another folder.
+
+```
+bash ~/somefolder/pdf2tiff-script/pdf2tiff.sh
+```
+
 
 ### Example
 ```
