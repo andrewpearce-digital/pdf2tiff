@@ -1,0 +1,3 @@
+# ignore test and demo folders
+demo/
+test/
